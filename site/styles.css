@@ -1,0 +1,45 @@
+/* common styles */
+
+body {
+    margin: 0px;
+}
+
+
+.left-col > .contact-hours-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.address-wrapper {
+    color: red;
+}
+
+
+.left-col {
+    display: flex;
+    align-items: center;
+}
+
+/* icon styles */
+.icon {
+    margin-right: 15px;
+ }
+.icon i {
+    font-size: 2em;
+}
+
+
+/* nav styles */
+
+/* .nav-link {} */
+
+.nav-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    /* flex box containers */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
